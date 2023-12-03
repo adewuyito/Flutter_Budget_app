@@ -1,0 +1,83 @@
+name: b_expence
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+#---------- PACKAGES ----------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #--- STATE MANAGMENT ---#
+  get:
+  get_storage:
+
+  #--- ICONS ---#
+  cupertino_icons: ^1.0.2
+  line_icons: ^2.0.3
+
+  #--- UTILITIES ---#
+  http:
+  google_fonts: ^6.1.0
+
+  #--- OTHERS ---#
+  smooth_page_indicator: ^1.1.0
+
+  #--- FIREBASE ---#
+  firebase_auth: ^4.12.1
+  firebase_core: ^2.21.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/icons/
+    - assets/images/home/
+    - assets/images/onboarding/
+
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/satoshi/Satoshi-Black.otf
+          weight: 900
+        - asset: assets/fonts/satoshi/Satoshi-Bold.otf
+          weight: 700
+        - asset: assets/fonts/satoshi/Satoshi-Medium.otf
+          weight: 500
+        - asset: assets/fonts/satoshi/Satoshi-Regular.otf
+          weight: 400
+        - asset: assets/fonts/satoshi/Satoshi-Light.otf
+          weight: 300
+  #       - asset: assets/fonts/satoshi/Satoshi-Black.otf
+  #       - asset: assets/fonts/satoshi/Satoshi-Black.otf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Clash Display
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Bold.otf
+          weight: 700
+        - asset: assets/fonts/clash_display/ClashDisplay-Light.otf
+          weight: 300
+        - asset: assets/fonts/clash_display/ClashDisplay-Medium.otf
+          weight: 500
+        - asset: assets/fonts/clash_display/ClashDisplay-Regular.otf
+          weight: 400
+  #     - asset: assets/fonts/clash_display/ClashDisplay-Bold.otf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
